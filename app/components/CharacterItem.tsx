@@ -58,7 +58,7 @@ export default function CharacterItem({ item }: any) {
             </Card>
 
             <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
-                <ModalContent>
+                <ModalContent className='dark:text-gray-700'>
                     <ModalHeader>
                         {characterDetails ? characterDetails.name : 'Character Details'}
                     </ModalHeader>
